@@ -16,7 +16,7 @@ export default function LoginForm(props) {
     <form>
       <InputMolecules type="email" placeholder="Email" />
       <InputPasswordMolecules showPassword={showPassword} handleShowPassword={handleShowPassword} />
-      <Button>Login</Button>
+      <Button className="w-full p-2 rounded-md bg-black text-white">Login</Button>
     </form>
   );
 }
